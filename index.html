@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="OUTZAAR — AI-powered outbound infrastructure. Your AI sales team finds prospects, researches them, and books meetings automatically." />
+  <title>OUTZAAR — Your AI Sales Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/css/outzaar.css" />
+</head>
+<body>
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader-logo"><span class="logo-dot"></span> OUTZAAR</div>
+    <div class="loader-bar"><div class="loader-bar-fill" id="loader-fill"></div></div>
+  </div>
+
+  <div id="liquid-metal-host" aria-hidden="true"></div>
+  <div class="liquid-metal-overlay" id="liquid-overlay" aria-hidden="true"></div>
+
+  <div class="css-hero-fallback" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <div id="custom-cursor" aria-hidden="true">
+    <div class="cursor-ring"></div>
+    <div class="cursor-dot"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo" data-cursor="link">
+      <span class="logo-dot"></span> OUTZAAR
+    </a>
+    <div class="nav-links">
+      <a href="#hero" class="nav-link" data-cursor="link">Home</a>
+      <a href="#solution" class="nav-link" data-cursor="link">Features</a>
+      <a href="#comparison" class="nav-link" data-cursor="link">About</a>
+      <a href="#faq" class="nav-link" data-cursor="link">Contact</a>
+    </div>
+    <a href="https://calendly.com" target="_blank" rel="noopener" class="nav-cta magnetic" data-cursor="button">Book a Demo</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-canvas" id="hero-canvas" aria-hidden="true">
+        <div class="grid-bg"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          AI-Powered Outbound Infrastructure
+        </div>
+
+        <h1 class="hero-h1">
+          Your <em>AI Sales Team</em>.<br />
+          No Humans Required.
+        </h1>
+
+        <p class="hero-sub">
+          Describe your ideal customer. Our AI finds them, researches them, builds a targeting strategy, and books the first meeting — automatically.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://calendly.com" target="_blank" rel="noopener" class="btn-primary magnetic" data-cursor="button">
+            Book a Demo
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#solution" class="btn-secondary magnetic" data-cursor="button" id="see-how-btn">
+            See How It Works
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-visual">
+          <div class="ai-operator">
+            <div class="op-header">
+              <div class="op-title"><span>⚙️</span> OUTZAAR AI Operator</div>
+              <div class="op-live"><span class="live-dot"></span> Live</div>
+            </div>
+            <div class="pipeline" id="pipeline">
+              <div class="pipe-step active" data-step="0" style="animation-delay:0s">
+                <div class="pipe-connector"><div class="connector-pulse"></div></div>
+                <div class="pipe-icon">🔍</div>
+                <div class="pipe-label">Lead Discovery</div>
+                <div class="pipe-value">4,218 cos</div>
+              </div>
+              <div class="pipe-step" data-step="1" style="animation-delay:0.1s">
+                <div class="pipe-connector"><div class="connector-pulse"></div></div>
+                <div class="pipe-icon">🧠</div>
+                <div class="pipe-label">Decision Mapping</div>
+                <div class="pipe-value">847 DMs</div>
+              </div>
+              <div class="pipe-step" data-step="2" style="animation-delay:0.2s">
+                <div class="pipe-connector"><div class="connector-pulse"></div></div>
+                <div class="pipe-icon">⚡</div>
+                <div class="pipe-label">Signal Analysis</div>
+                <div class="pipe-value">23 signals</div>
+              </div>
+              <div class="pipe-step" data-step="3" style="animation-delay:0.3s">
+                <div class="pipe-connector"><div class="connector-pulse"></div></div>
+                <div class="pipe-icon">✉️</div>
+                <div class="pipe-label">Outreach</div>
+                <div class="pipe-value">312 sent</div>
+              </div>
+              <div class="pipe-step" data-step="4" style="animation-delay:0.4s">
+                <div class="pipe-icon">📅</div>
+                <div class="pipe-label">Meetings Booked</div>
+                <div class="pipe-value">14 booked</div>
+              </div>
+            </div>
+            <div class="meeting-booked">
+              <div class="booked-info">
+                <div class="booked-label">✅ Meeting Booked</div>
+                <div class="booked-name">Priya Sharma — Head of Growth, Razorpay</div>
+                <div class="booked-meta">Tomorrow · 11:00 AM IST · 30 min discovery call</div>
+              </div>
+              <div class="booked-check">🗓️</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <svg class="scroll-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </div>
+    </section>
+
+    <section class="section" id="problem" style="background:rgba(0,0,0,0.2)">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">The Problem</div>
+          <h2 class="section-h2">Sales Is Still Manual.<br /><em>That's Insane.</em></h2>
+          <p class="section-sub">Your best salespeople are spending their days on tasks a machine could do in seconds.</p>
+        </div>
+        <div class="problem-grid">
+          <div class="problem-card tilt-card reveal reveal-delay-1" data-cursor="link">
+            <div class="problem-icon">🗂️</div>
+            <div class="problem-title">Company Searching</div>
+            <div class="problem-desc">Hours browsing LinkedIn, Google, and directories just to build a basic prospect list.</div>
+            <div class="problem-pain">~8 hrs/week</div>
+          </div>
+          <div class="problem-card tilt-card reveal reveal-delay-2" data-cursor="link">
+            <div class="problem-icon">🕵️</div>
+            <div class="problem-title">Decision-Maker Research</div>
+            <div class="problem-desc">Manually profiling individuals, their roles, buying signals, and reporting lines.</div>
+            <div class="problem-pain">~5 hrs/week</div>
+          </div>
+          <div class="problem-card tilt-card reveal reveal-delay-3" data-cursor="link">
+            <div class="problem-icon">📨</div>
+            <div class="problem-title">Manual Outreach</div>
+            <div class="problem-desc">Writing one-off emails, copy-pasting templates, praying someone replies.</div>
+            <div class="problem-pain">~6 hrs/week</div>
+          </div>
+          <div class="problem-card tilt-card reveal reveal-delay-4" data-cursor="link">
+            <div class="problem-icon">🔁</div>
+            <div class="problem-title">Repetitive Follow-Ups</div>
+            <div class="problem-desc">Chasing cold leads with zero signal, burning time on the wrong prospects.</div>
+            <div class="problem-pain">~4 hrs/week</div>
+          </div>
+          <div class="problem-card tilt-card reveal reveal-delay-4" data-cursor="link">
+            <div class="problem-icon">🗓️</div>
+            <div class="problem-title">Scheduling Chaos</div>
+            <div class="problem-desc">Back-and-forth to find a time. Calendar links ignored. Meetings missed.</div>
+            <div class="problem-pain">~3 hrs/week</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solution">
+      <div class="solution-bg" aria-hidden="true"></div>
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">The Solution</div>
+          <h2 class="section-h2">Describe Your Ideal Customer.<br /><em>We Handle Everything Else.</em></h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card tilt-card reveal reveal-delay-1" data-cursor="link">
+            <div class="feature-pulse"></div>
+            <div class="feature-num">01</div>
+            <div class="feature-title">Company Intelligence</div>
+            <div class="feature-desc">Deep research on thousands of companies — funding, headcount, tech stack, intent signals, and growth indicators. All automated.</div>
+          </div>
+          <div class="feature-card tilt-card reveal reveal-delay-2" data-cursor="link">
+            <div class="feature-pulse"></div>
+            <div class="feature-num">02</div>
+            <div class="feature-title">Decision-Maker Mapping</div>
+            <div class="feature-desc">Identify the exact people who buy what you sell — title, seniority, responsibility scope, and likely pain points.</div>
+          </div>
+          <div class="feature-card tilt-card reveal reveal-delay-3" data-cursor="link">
+            <div class="feature-pulse"></div>
+            <div class="feature-num">03</div>
+            <div class="feature-title">Targeting Strategy</div>
+            <div class="feature-desc">AI-built account and persona maps. Prioritised by fit, intent, and likelihood to engage right now.</div>
+          </div>
+          <div class="feature-card tilt-card reveal reveal-delay-4" data-cursor="link">
+            <div class="feature-pulse"></div>
+            <div class="feature-num">04</div>
+            <div class="feature-title">Intelligent Outreach</div>
+            <div class="feature-desc">Personalised multi-touch sequences that feel handwritten. Tone, timing, and channel optimised per prospect.</div>
+          </div>
+          <div class="feature-card tilt-card reveal reveal-delay-4" data-cursor="link">
+            <div class="feature-pulse"></div>
+            <div class="feature-num">05</div>
+            <div class="feature-title">Meeting Booking</div>
+            <div class="feature-desc">End-to-end follow-through until a meeting is scheduled. OUTZAAR handles the back-and-forth so you don't have to.</div>
+          </div>
+        </div>
+        <div class="intelligence-banner reveal">This Isn't Automation. It's Intelligence.</div>
+      </div>
+    </section>
+
+    <section class="section" id="comparison" style="background:rgba(0,0,0,0.15)">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Before vs After</div>
+          <h2 class="section-h2">Outbound, <em>Reinvented.</em></h2>
+        </div>
+        <div class="comparison-grid">
+          <div class="comp-panel old reveal">
+            <div class="comp-header">⚡ Old Outbound</div>
+            <div class="comp-flow">
+              <div><div class="comp-node"><span class="comp-node-icon">😰</span>Manually search for companies</div><div class="comp-arrow">↓ hours later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">🔍</span>Individually research each contact</div><div class="comp-arrow">↓ hours later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">✍️</span>Write emails one by one</div><div class="comp-arrow">↓ hours later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">📞</span>Chase leads with no signal</div><div class="comp-arrow">↓ hours later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">📅</span>Play calendar tag for weeks</div></div>
+            </div>
+            <div class="comp-result">🚫 Months of work. A handful of meetings.</div>
+          </div>
+          <div class="comp-panel new reveal reveal-delay-2">
+            <div class="comp-header">✦ OUTZAAR</div>
+            <div class="comp-flow">
+              <div><div class="comp-node"><span class="comp-node-icon">💬</span>Describe your ideal customer</div><div class="comp-arrow">↓ seconds later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">🧠</span>AI maps the entire market for you</div><div class="comp-arrow">↓ seconds later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">⚡</span>Intelligent, personalised outreach fires</div><div class="comp-arrow">↓ seconds later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">📊</span>Signals monitored, follow-ups automated</div><div class="comp-arrow">↓ seconds later</div></div>
+              <div><div class="comp-node"><span class="comp-node-icon">📅</span>Meeting appears on your calendar</div></div>
+            </div>
+            <div class="comp-result">✅ One prompt. Meetings booked. Pipeline filled.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="who">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">Who It's For</div>
+          <h2 class="section-h2">Built for Teams<br /><em>Who Need More Pipeline.</em></h2>
+        </div>
+        <div class="who-grid">
+          <div class="who-card tilt-card reveal reveal-delay-1" data-cursor="link">
+            <div class="who-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+            <div class="who-title">Digital &amp; Growth Agencies</div>
+            <div class="who-desc">Land retainer clients on autopilot while your team focuses on delivery.</div>
+          </div>
+          <div class="who-card tilt-card reveal reveal-delay-2" data-cursor="link">
+            <div class="who-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <div class="who-title">B2B SaaS Companies</div>
+            <div class="who-desc">Build a predictable pipeline of qualified demos without a full SDR team.</div>
+          </div>
+          <div class="who-card tilt-card reveal reveal-delay-3" data-cursor="link">
+            <div class="who-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <div class="who-title">IT Services &amp; Staffing</div>
+            <div class="who-desc">Reach decision-makers at the right moment in their hiring or tech cycle.</div>
+          </div>
+          <div class="who-card tilt-card reveal reveal-delay-4" data-cursor="link">
+            <div class="who-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" x2="12" y1="22" y2="12"/></svg></div>
+            <div class="who-title">Manufacturers &amp; Exporters</div>
+            <div class="who-desc">Find international buyers and distributors across any market, automatically.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hiw-section" id="how">
+      <div class="section-inner">
+        <div class="reveal" style="text-align:center">
+          <div class="section-label">How It Works</div>
+          <h2 class="section-h2">Three Inputs.<br /><em>One Output: Booked Meetings.</em></h2>
+        </div>
+        <div class="hiw-flow">
+          <div class="hiw-step reveal reveal-delay-1">
+            <div class="hiw-num">01</div>
+            <div class="hiw-title">What You Sell</div>
+            <div class="hiw-desc">Your product, use case, and the outcomes you deliver. That's it.</div>
+          </div>
+          <div class="hiw-step reveal reveal-delay-2">
+            <div class="hiw-num">02</div>
+            <div class="hiw-title">Your Ideal Customer</div>
+            <div class="hiw-desc">Industry, size, role, signals, geography. Or just describe them in plain English.</div>
+          </div>
+          <div class="hiw-step reveal reveal-delay-3">
+            <div class="hiw-num">03</div>
+            <div class="hiw-title">How You Sound</div>
+            <div class="hiw-desc">Tone, style, messaging preferences. We personalise every touchpoint.</div>
+          </div>
+          <div class="hiw-step reveal reveal-delay-4">
+            <div class="hiw-num">✦</div>
+            <div class="hiw-title">Booked Meetings</div>
+            <div class="hiw-desc">Researched, contacted, and interested prospects with meetings scheduled. In your calendar.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cta" style="background:rgba(99,102,241,0.04);padding:5rem 2rem">
+      <div class="section-inner" style="text-align:center">
+        <div class="reveal">
+          <div class="section-label">Early Access</div>
+          <h2 class="section-h2" style="margin-bottom:1rem">Ready to Fill<br /><em>Your Pipeline?</em></h2>
+          <p class="cta-sub">Join the private beta. We're onboarding select companies with preferential pricing.</p>
+          <a href="https://calendly.com" target="_blank" rel="noopener" class="btn-primary magnetic" style="margin:0 auto" data-cursor="button">
+            Book a Demo
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" style="background:rgba(0,0,0,0.1)">
+      <div class="section-inner">
+        <div class="reveal">
+          <div class="section-label">FAQ</div>
+          <h2 class="section-h2">Common <em>Questions.</em></h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-q" type="button" data-cursor="button">
+              Is this just another email automation tool?
+              <span class="faq-icon"><svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+            </button>
+            <div class="faq-a">No. Most tools automate sending. OUTZAAR automates thinking — research, targeting, strategy, sequencing, and booking — the entire outbound process end to end. Email is just one of the channels it uses.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" data-cursor="button">
+              How does it find Indian companies?
+              <span class="faq-icon"><svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+            </button>
+            <div class="faq-a">OUTZAAR uses proprietary data sources, public business registries, web crawling, and verified signal aggregation to discover and profile companies across India and globally — far beyond what LinkedIn or ZoomInfo offer.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" data-cursor="button">
+              Does it work without a sales team?
+              <span class="faq-icon"><svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+            </button>
+            <div class="faq-a">Yes. That's the point. You define your ICP and messaging preferences. OUTZAAR does the prospecting, research, outreach, and booking. One person can run it like a team of ten.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" data-cursor="button">
+              What channels does it use?
+              <span class="faq-icon"><svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+            </button>
+            <div class="faq-a">Email is the primary channel. LinkedIn, WhatsApp, and enriched calling data are part of the roadmap, with multi-channel orchestration launching in the next phase.</div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" data-cursor="button">
+              When can I access it?
+              <span class="faq-icon"><svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5v14"/></svg></span>
+            </button>
+            <div class="faq-a">OUTZAAR is currently in private beta with select customers. Book a demo to get early access and secure preferential pricing before the public launch.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-logo"><span class="logo-dot" style="width:7px;height:7px"></span> OUTZAAR</div>
+      <div class="footer-copy">© 2025 OUTZAAR. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#" class="footer-link" data-cursor="link">Privacy</a>
+        <a href="#" class="footer-link" data-cursor="link">Terms</a>
+        <a href="#faq" class="footer-link" data-cursor="link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/outzaar.js"></script>
+</body>
+</html>
