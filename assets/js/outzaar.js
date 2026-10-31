@@ -42,9 +42,9 @@ function initLoader() {
 
   let progress = 0;
   const tick = setInterval(() => {
-    progress = Math.min(progress + Math.random() * 18 + 8, 92);
+    progress = Math.min(progress + Math.random() * 25 + 20, 95);
     fill.style.width = `${progress}%`;
-  }, 120);
+  }, 40);
 
   return {
     complete() {
@@ -53,7 +53,7 @@ function initLoader() {
       setTimeout(() => {
         loader.classList.add('hidden');
         loader.setAttribute('aria-hidden', 'true');
-      }, 400);
+      }, 150);
     },
   };
 }
@@ -418,7 +418,7 @@ async function boot() {
   const shaderPromise = initLiquidMetal();
   await Promise.race([
     shaderPromise,
-    new Promise((r) => setTimeout(r, 2500)),
+    new Promise((r) => setTimeout(r, 500)),
   ]);
 
   loader?.complete();

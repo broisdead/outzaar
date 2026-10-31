@@ -85,7 +85,7 @@ main { position: relative; z-index: 2; }
   justify-content: center;
   gap: 1.5rem;
   background: var(--bg);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.7s;
+  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s;
 }
 
 #page-loader.hidden {
@@ -116,8 +116,8 @@ main { position: relative; z-index: 2; }
   width: 0%;
   background: linear-gradient(90deg, var(--accent), hsl(200, 80%, 60%));
   border-radius: 2px;
-  transition: width 0.3s ease;
-  animation: loaderPulse 1.2s ease-in-out infinite;
+  transition: width 0.15s ease;
+  animation: loaderPulse 0.8s ease-in-out infinite;
 }
 
 @keyframes loaderPulse {
@@ -700,19 +700,23 @@ main { position: relative; z-index: 2; }
 }
 .faq-a.open { max-height: 280px; padding: 0 1.5rem 1.25rem; }
 
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.02);
+}
 .footer {
-  border-top: 1px solid var(--border); padding: 3rem 2rem;
+  padding: 2.5rem 2rem;
   display: flex; align-items: center; justify-content: space-between;
   flex-wrap: wrap; gap: 1.5rem; max-width: 1100px; margin: 0 auto;
 }
 .footer-logo {
   font-family: 'Instrument Serif', serif; font-size: 1.2rem;
-  color: var(--fg); display: flex; align-items: center; gap: 0.5rem;
+  color: #ffffff; display: flex; align-items: center; gap: 0.5rem;
 }
-.footer-copy { font-size: 0.78rem; color: var(--muted-fg); }
-.footer-links { display: flex; gap: 1.5rem; }
-.footer-link { font-size: 0.78rem; color: var(--muted-fg); text-decoration: none; transition: color 0.2s; }
-.footer-link:hover { color: var(--fg); }
+.footer-copy { font-size: 0.82rem; color: rgba(255, 255, 255, 0.88); }
+.footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.footer-link { font-size: 0.82rem; color: rgba(255, 255, 255, 0.88); text-decoration: none; transition: color 0.2s, opacity 0.2s; }
+.footer-link:hover { color: #ffffff; }
 
 .cta-sub {
   color: var(--muted-fg);
