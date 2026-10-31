@@ -701,6 +701,8 @@ main { position: relative; z-index: 2; }
 .faq-a.open { max-height: 280px; padding: 0 1.5rem 1.25rem; }
 
 footer {
+  position: relative;
+  z-index: 2;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.02);
 }
@@ -710,13 +712,24 @@ footer {
   flex-wrap: wrap; gap: 1.5rem; max-width: 1100px; margin: 0 auto;
 }
 .footer-logo {
-  font-family: 'Instrument Serif', serif; font-size: 1.2rem;
+  font-family: 'Instrument Serif', serif; font-size: 1.25rem;
   color: #ffffff; display: flex; align-items: center; gap: 0.5rem;
+  font-weight: 600;
 }
-.footer-copy { font-size: 0.82rem; color: rgba(255, 255, 255, 0.88); }
+.footer-copy { font-size: 0.85rem; color: #ffffff; opacity: 1; }
 .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-.footer-link { font-size: 0.82rem; color: rgba(255, 255, 255, 0.88); text-decoration: none; transition: color 0.2s, opacity 0.2s; }
-.footer-link:hover { color: #ffffff; }
+.footer-link {
+  font-size: 0.85rem;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s ease, text-decoration 0.2s ease;
+}
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 
 .cta-sub {
   color: var(--muted-fg);
