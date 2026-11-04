@@ -282,6 +282,15 @@ main { position: relative; z-index: 2; }
   font-family: 'Instrument Serif', serif; font-size: 1.4rem; letter-spacing: 0.02em;
   color: var(--fg); text-decoration: none;
 }
+.nav-logo-img,
+.footer-logo-img {
+  height: 36px;
+  width: 140px;
+  object-fit: cover;
+  object-position: center;
+  mix-blend-mode: screen;
+  display: block;
+}
 .logo-dot {
   width: 8px; height: 8px; border-radius: 50%;
   background: var(--accent);
@@ -762,6 +771,11 @@ body.low-performance .liquid-metal-overlay { opacity: 0.75 !important; }
   body.custom-cursor-active { cursor: auto; }
 }
 @media (max-width: 480px) {
+  .nav-logo-img,
+  .footer-logo-img {
+    height: 30px;
+    width: 120px;
+  }
   .hiw-flow { grid-template-columns: 1fr; }
   .pipeline { grid-template-columns: repeat(2, 1fr); }
   .hero-actions { flex-direction: column; align-items: center; }
