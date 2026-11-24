@@ -791,7 +791,7 @@ body.low-performance .liquid-metal-overlay { opacity: 0.75 !important; }
     object-fit: contain;
     display: block;
 }
-/* Large Footer Logo */
+/* Footer Logo */
 .footer-logo {
     display: flex;
     justify-content: center;
@@ -801,16 +801,17 @@ body.low-performance .liquid-metal-overlay { opacity: 0.75 !important; }
 }
 
 .footer-logo-img {
-    display: block;
-    width: min(85vw, 1150px);
-    max-width: 100%;
+    width: 65%;
+    max-width: 850px;
     height: auto;
     object-fit: contain;
+    display: block;
 }
 
-/* Mobile Footer Logo */
+/* Mobile */
 @media (max-width: 480px) {
     .footer-logo-img {
-        width: 95%;
+        width: 90%;
+        max-width: 360px;
     }
 }
