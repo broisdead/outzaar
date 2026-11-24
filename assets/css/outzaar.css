@@ -805,11 +805,5 @@ body.low-performance .liquid-metal-overlay { opacity: 0.75 !important; }
     display: block;
 }
 
-/* Mobile Footer Logo */
-@media (max-width: 480px) {
-    .footer-logo-img {
-        height: 34px;
-        max-width: 150px;
-    }
-}
+
 
