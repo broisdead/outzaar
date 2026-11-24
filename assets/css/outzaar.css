@@ -777,3 +777,17 @@ body.low-performance .liquid-metal-overlay { opacity: 0.75 !important; }
   body.custom-cursor-active { cursor: auto; }
   .reveal { opacity: 1; transform: none; }
 }
+/* OUTZAAR Navbar Logo */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-logo-img {
+    height: 42px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    display: block;
+}
