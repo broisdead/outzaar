@@ -801,17 +801,19 @@ body.low-performance .liquid-metal-overlay { opacity: 0.75 !important; }
 }
 
 .footer-logo-img {
-    width: 65%;
-    max-width: 850px;
+    width: 220px;
+    max-width: 65%;
     height: auto;
+    max-height: 65px;
     object-fit: contain;
     display: block;
 }
 
-/* Mobile */
+/* Mobile Footer */
 @media (max-width: 480px) {
     .footer-logo-img {
-        width: 90%;
-        max-width: 360px;
+        width: 150px;
+        max-width: 60%;
+        max-height: 45px;
     }
 }
